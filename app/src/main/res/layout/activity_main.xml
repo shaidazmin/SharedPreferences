@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nz.sharedpreferences.MainActivity">
+
+<LinearLayout
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    android:orientation="vertical"
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <EditText
+        android:hint="user Name"
+        android:id="@+id/userNameEdtiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="textPassword"
+        android:hint="password"
+        android:id="@+id/passwordEdtiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Save"
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="Show"
+            android:id="@+id/showButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:text="Clear"
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+</LinearLayout>
